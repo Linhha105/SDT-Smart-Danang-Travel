@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-11-16T17:14:39",
+  "input_file": "data/raw/osm_places_danang_old_full.json",
+  "boundary_file": "data/raw/danang_old_boundary.geojson",
+  "total_input": 3378,
+  "total_inside": 3378,
+  "total_outside": 0,
+  "invalid_coordinates": 0,
+  "inside_rate_percent": 100.0,
+  "outside_rate_percent": 0.0,
+  "boundary_valid": true,
+  "boundary_bounds": [
+    107.8185394,
+    15.9179902,
+    108.6563719,
+    16.3340091
+  ],
+  "inside_by_osm_type": {
+    "node": 2967,
+    "way": 403,
+    "relation": 8
+  },
+  "inside_by_osm_tag": {
+    "amenity": 1928,
+    "shop": 617,
+    "tourism": 727,
+    "natural": 46,
+    "leisure": 50,
+    "historic": 10
+  }
+}

@@ -1,0 +1,1916 @@
+{
+  "total_pois": 3342,
+  "input_files": {
+    "categorized": "data/processed/osm_places_danang_old_full_categorized.json",
+    "unclassified": "data/processed/osm_places_danang_old_full_unclassified.json",
+    "boundary": "data/raw/danang_old_boundary.geojson",
+    "boundary_layer_used": "final"
+  },
+  "dataset_integrity": {
+    "total_pois": 3342,
+    "categorized_count": 3342,
+    "unclassified_count": 0,
+    "count_consistent": true,
+    "all_retained_pois_classified": true
+  },
+  "classification": {
+    "categorized": 3342,
+    "unclassified": 0,
+    "primary_category_counts": {
+      "food_drink": 1687,
+      "shopping": 663,
+      "entertainment": 130,
+      "sightseeing": 223,
+      "hotel": 624,
+      "beach": 15
+    },
+    "secondary_category_counts": {
+      "sightseeing": 3,
+      "food_drink": 2,
+      "shopping": 3
+    }
+  },
+  "completeness": {
+    "missing_name": 0,
+    "missing_or_invalid_coordinates": 0,
+    "missing_optional_fields": {
+      "address": 2112,
+      "opening_hours": 2909,
+      "website": 3030,
+      "phone": 2864
+    },
+    "samples": {
+      "address": [
+        {
+          "osm_id": 729406384,
+          "osm_type": "node",
+          "name": "CaPhe Thu Uyen",
+          "latitude": 16.0874373,
+          "longitude": 108.1445387,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406385,
+          "osm_type": "node",
+          "name": "Cafe Win",
+          "latitude": 16.0746726,
+          "longitude": 108.2187015,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406386,
+          "osm_type": "node",
+          "name": "CafeKhanh Ly",
+          "latitude": 16.0627174,
+          "longitude": 108.208943,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406387,
+          "osm_type": "node",
+          "name": "ThanhBinh Coffee",
+          "latitude": 16.0347187,
+          "longitude": 108.2446539,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406388,
+          "osm_type": "node",
+          "name": "CaPhe Fantasy",
+          "latitude": 16.0632999,
+          "longitude": 108.1601536,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406389,
+          "osm_type": "node",
+          "name": "CaPhe Lang Tien",
+          "latitude": 16.0657433,
+          "longitude": 108.2077628,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406390,
+          "osm_type": "node",
+          "name": "KieuLien Coffee",
+          "latitude": 16.0786302,
+          "longitude": 108.1477511,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406391,
+          "osm_type": "node",
+          "name": "Cafe Truc Phuong",
+          "latitude": 16.0684586,
+          "longitude": 108.1500026,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406392,
+          "osm_type": "node",
+          "name": "Ca Phe 83",
+          "latitude": 16.0785765,
+          "longitude": 108.2193388,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406393,
+          "osm_type": "node",
+          "name": "Cafe Dong Xanh",
+          "latitude": 16.0640577,
+          "longitude": 108.2208466,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406394,
+          "osm_type": "node",
+          "name": "CafeTo Be",
+          "latitude": 16.0736841,
+          "longitude": 108.2182886,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406396,
+          "osm_type": "node",
+          "name": "MuoiChau Coffee",
+          "latitude": 16.0021817,
+          "longitude": 108.2670205,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406397,
+          "osm_type": "node",
+          "name": "CaPhe Sao Mai",
+          "latitude": 16.0668568,
+          "longitude": 108.1743586,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406398,
+          "osm_type": "node",
+          "name": "MienThao Coffee",
+          "latitude": 16.0762311,
+          "longitude": 108.2308433,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406399,
+          "osm_type": "node",
+          "name": "GmcCoffee",
+          "latitude": 16.0539382,
+          "longitude": 108.2208037,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406400,
+          "osm_type": "node",
+          "name": "CaPhe 3 Ladies",
+          "latitude": 16.0827332,
+          "longitude": 108.2219624,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406401,
+          "osm_type": "node",
+          "name": "OnenineCoffee",
+          "latitude": 16.066281,
+          "longitude": 108.1920523,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406402,
+          "osm_type": "node",
+          "name": "Ca Phe Thuan",
+          "latitude": 16.0515981,
+          "longitude": 108.1700044,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406403,
+          "osm_type": "node",
+          "name": "CafeGiai Khat 204",
+          "latitude": 16.0597687,
+          "longitude": 108.2135027,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406404,
+          "osm_type": "node",
+          "name": "CaPhe Konia",
+          "latitude": 16.0719493,
+          "longitude": 108.2127548,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      ],
+      "opening_hours": [
+        {
+          "osm_id": 729406384,
+          "osm_type": "node",
+          "name": "CaPhe Thu Uyen",
+          "latitude": 16.0874373,
+          "longitude": 108.1445387,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406385,
+          "osm_type": "node",
+          "name": "Cafe Win",
+          "latitude": 16.0746726,
+          "longitude": 108.2187015,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406386,
+          "osm_type": "node",
+          "name": "CafeKhanh Ly",
+          "latitude": 16.0627174,
+          "longitude": 108.208943,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406387,
+          "osm_type": "node",
+          "name": "ThanhBinh Coffee",
+          "latitude": 16.0347187,
+          "longitude": 108.2446539,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406388,
+          "osm_type": "node",
+          "name": "CaPhe Fantasy",
+          "latitude": 16.0632999,
+          "longitude": 108.1601536,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406389,
+          "osm_type": "node",
+          "name": "CaPhe Lang Tien",
+          "latitude": 16.0657433,
+          "longitude": 108.2077628,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406390,
+          "osm_type": "node",
+          "name": "KieuLien Coffee",
+          "latitude": 16.0786302,
+          "longitude": 108.1477511,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406391,
+          "osm_type": "node",
+          "name": "Cafe Truc Phuong",
+          "latitude": 16.0684586,
+          "longitude": 108.1500026,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406392,
+          "osm_type": "node",
+          "name": "Ca Phe 83",
+          "latitude": 16.0785765,
+          "longitude": 108.2193388,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406393,
+          "osm_type": "node",
+          "name": "Cafe Dong Xanh",
+          "latitude": 16.0640577,
+          "longitude": 108.2208466,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406394,
+          "osm_type": "node",
+          "name": "CafeTo Be",
+          "latitude": 16.0736841,
+          "longitude": 108.2182886,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406396,
+          "osm_type": "node",
+          "name": "MuoiChau Coffee",
+          "latitude": 16.0021817,
+          "longitude": 108.2670205,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406397,
+          "osm_type": "node",
+          "name": "CaPhe Sao Mai",
+          "latitude": 16.0668568,
+          "longitude": 108.1743586,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406398,
+          "osm_type": "node",
+          "name": "MienThao Coffee",
+          "latitude": 16.0762311,
+          "longitude": 108.2308433,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406399,
+          "osm_type": "node",
+          "name": "GmcCoffee",
+          "latitude": 16.0539382,
+          "longitude": 108.2208037,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406400,
+          "osm_type": "node",
+          "name": "CaPhe 3 Ladies",
+          "latitude": 16.0827332,
+          "longitude": 108.2219624,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406401,
+          "osm_type": "node",
+          "name": "OnenineCoffee",
+          "latitude": 16.066281,
+          "longitude": 108.1920523,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406402,
+          "osm_type": "node",
+          "name": "Ca Phe Thuan",
+          "latitude": 16.0515981,
+          "longitude": 108.1700044,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406403,
+          "osm_type": "node",
+          "name": "CafeGiai Khat 204",
+          "latitude": 16.0597687,
+          "longitude": 108.2135027,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406404,
+          "osm_type": "node",
+          "name": "CaPhe Konia",
+          "latitude": 16.0719493,
+          "longitude": 108.2127548,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      ],
+      "website": [
+        {
+          "osm_id": 729406384,
+          "osm_type": "node",
+          "name": "CaPhe Thu Uyen",
+          "latitude": 16.0874373,
+          "longitude": 108.1445387,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406385,
+          "osm_type": "node",
+          "name": "Cafe Win",
+          "latitude": 16.0746726,
+          "longitude": 108.2187015,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406386,
+          "osm_type": "node",
+          "name": "CafeKhanh Ly",
+          "latitude": 16.0627174,
+          "longitude": 108.208943,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406387,
+          "osm_type": "node",
+          "name": "ThanhBinh Coffee",
+          "latitude": 16.0347187,
+          "longitude": 108.2446539,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406388,
+          "osm_type": "node",
+          "name": "CaPhe Fantasy",
+          "latitude": 16.0632999,
+          "longitude": 108.1601536,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406389,
+          "osm_type": "node",
+          "name": "CaPhe Lang Tien",
+          "latitude": 16.0657433,
+          "longitude": 108.2077628,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406390,
+          "osm_type": "node",
+          "name": "KieuLien Coffee",
+          "latitude": 16.0786302,
+          "longitude": 108.1477511,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406391,
+          "osm_type": "node",
+          "name": "Cafe Truc Phuong",
+          "latitude": 16.0684586,
+          "longitude": 108.1500026,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406392,
+          "osm_type": "node",
+          "name": "Ca Phe 83",
+          "latitude": 16.0785765,
+          "longitude": 108.2193388,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406393,
+          "osm_type": "node",
+          "name": "Cafe Dong Xanh",
+          "latitude": 16.0640577,
+          "longitude": 108.2208466,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406394,
+          "osm_type": "node",
+          "name": "CafeTo Be",
+          "latitude": 16.0736841,
+          "longitude": 108.2182886,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406396,
+          "osm_type": "node",
+          "name": "MuoiChau Coffee",
+          "latitude": 16.0021817,
+          "longitude": 108.2670205,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406397,
+          "osm_type": "node",
+          "name": "CaPhe Sao Mai",
+          "latitude": 16.0668568,
+          "longitude": 108.1743586,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406398,
+          "osm_type": "node",
+          "name": "MienThao Coffee",
+          "latitude": 16.0762311,
+          "longitude": 108.2308433,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406399,
+          "osm_type": "node",
+          "name": "GmcCoffee",
+          "latitude": 16.0539382,
+          "longitude": 108.2208037,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406400,
+          "osm_type": "node",
+          "name": "CaPhe 3 Ladies",
+          "latitude": 16.0827332,
+          "longitude": 108.2219624,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406401,
+          "osm_type": "node",
+          "name": "OnenineCoffee",
+          "latitude": 16.066281,
+          "longitude": 108.1920523,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406402,
+          "osm_type": "node",
+          "name": "Ca Phe Thuan",
+          "latitude": 16.0515981,
+          "longitude": 108.1700044,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406403,
+          "osm_type": "node",
+          "name": "CafeGiai Khat 204",
+          "latitude": 16.0597687,
+          "longitude": 108.2135027,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406404,
+          "osm_type": "node",
+          "name": "CaPhe Konia",
+          "latitude": 16.0719493,
+          "longitude": 108.2127548,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      ],
+      "phone": [
+        {
+          "osm_id": 729406384,
+          "osm_type": "node",
+          "name": "CaPhe Thu Uyen",
+          "latitude": 16.0874373,
+          "longitude": 108.1445387,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406385,
+          "osm_type": "node",
+          "name": "Cafe Win",
+          "latitude": 16.0746726,
+          "longitude": 108.2187015,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406386,
+          "osm_type": "node",
+          "name": "CafeKhanh Ly",
+          "latitude": 16.0627174,
+          "longitude": 108.208943,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406387,
+          "osm_type": "node",
+          "name": "ThanhBinh Coffee",
+          "latitude": 16.0347187,
+          "longitude": 108.2446539,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406388,
+          "osm_type": "node",
+          "name": "CaPhe Fantasy",
+          "latitude": 16.0632999,
+          "longitude": 108.1601536,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406389,
+          "osm_type": "node",
+          "name": "CaPhe Lang Tien",
+          "latitude": 16.0657433,
+          "longitude": 108.2077628,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406390,
+          "osm_type": "node",
+          "name": "KieuLien Coffee",
+          "latitude": 16.0786302,
+          "longitude": 108.1477511,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406391,
+          "osm_type": "node",
+          "name": "Cafe Truc Phuong",
+          "latitude": 16.0684586,
+          "longitude": 108.1500026,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406392,
+          "osm_type": "node",
+          "name": "Ca Phe 83",
+          "latitude": 16.0785765,
+          "longitude": 108.2193388,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406393,
+          "osm_type": "node",
+          "name": "Cafe Dong Xanh",
+          "latitude": 16.0640577,
+          "longitude": 108.2208466,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406394,
+          "osm_type": "node",
+          "name": "CafeTo Be",
+          "latitude": 16.0736841,
+          "longitude": 108.2182886,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406396,
+          "osm_type": "node",
+          "name": "MuoiChau Coffee",
+          "latitude": 16.0021817,
+          "longitude": 108.2670205,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406397,
+          "osm_type": "node",
+          "name": "CaPhe Sao Mai",
+          "latitude": 16.0668568,
+          "longitude": 108.1743586,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406398,
+          "osm_type": "node",
+          "name": "MienThao Coffee",
+          "latitude": 16.0762311,
+          "longitude": 108.2308433,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406399,
+          "osm_type": "node",
+          "name": "GmcCoffee",
+          "latitude": 16.0539382,
+          "longitude": 108.2208037,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406400,
+          "osm_type": "node",
+          "name": "CaPhe 3 Ladies",
+          "latitude": 16.0827332,
+          "longitude": 108.2219624,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406401,
+          "osm_type": "node",
+          "name": "OnenineCoffee",
+          "latitude": 16.066281,
+          "longitude": 108.1920523,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406402,
+          "osm_type": "node",
+          "name": "Ca Phe Thuan",
+          "latitude": 16.0515981,
+          "longitude": 108.1700044,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406403,
+          "osm_type": "node",
+          "name": "CafeGiai Khat 204",
+          "latitude": 16.0597687,
+          "longitude": 108.2135027,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        {
+          "osm_id": 729406404,
+          "osm_type": "node",
+          "name": "CaPhe Konia",
+          "latitude": 16.0719493,
+          "longitude": 108.2127548,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      ]
+    }
+  },
+  "identity_validity": {
+    "missing_osm_identity": [],
+    "duplicate_osm_ids": []
+  },
+  "duplicate_detection": {
+    "duplicate_distance_threshold_m": 50,
+    "possible_duplicate_pairs": [
+      {
+        "normalized_name": "winmart",
+        "distance_m": 45.84,
+        "poi_1": {
+          "osm_id": 5277226022,
+          "osm_type": "node",
+          "name": "WinMart",
+          "latitude": 16.0716248,
+          "longitude": 108.2303226,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 13619329407,
+          "osm_type": "node",
+          "name": "WinMart",
+          "latitude": 16.0712239,
+          "longitude": 108.2304225,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "winmart",
+        "distance_m": 35.2,
+        "poi_1": {
+          "osm_id": 5609999944,
+          "osm_type": "node",
+          "name": "WinMart+",
+          "latitude": 16.0598802,
+          "longitude": 108.2092808,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 696949105,
+          "osm_type": "way",
+          "name": "WinMart+",
+          "latitude": 16.0601967,
+          "longitude": 108.2092866,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "winmart",
+        "distance_m": 0.0,
+        "poi_1": {
+          "osm_id": 13671225601,
+          "osm_type": "node",
+          "name": "Winmart",
+          "latitude": 16.0094313,
+          "longitude": 108.2573552,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 13671297801,
+          "osm_type": "node",
+          "name": "Winmart",
+          "latitude": 16.0094313,
+          "longitude": 108.2573552,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "san van ong cam le",
+        "distance_m": 18.97,
+        "poi_1": {
+          "osm_id": 3762853481,
+          "osm_type": "node",
+          "name": "Sân vận động Cẩm Lệ",
+          "latitude": 16.0148875,
+          "longitude": 108.1891412,
+          "category": "entertainment",
+          "category_name": "Giải trí",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 372735507,
+          "osm_type": "way",
+          "name": "Sân vận động Cẩm Lệ",
+          "latitude": 16.0147913,
+          "longitude": 108.1889946,
+          "category": "entertainment",
+          "category_name": "Giải trí",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "bun cha hue chi",
+        "distance_m": 1.24,
+        "poi_1": {
+          "osm_id": 5123239421,
+          "osm_type": "node",
+          "name": "Bún Chả Huệ Chi",
+          "latitude": 16.0848495,
+          "longitude": 108.2296619,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 5216150024,
+          "osm_type": "node",
+          "name": "Bún Chả Huệ Chi",
+          "latitude": 16.0848384,
+          "longitude": 108.2296613,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "cafe caracoli",
+        "distance_m": 9.11,
+        "poi_1": {
+          "osm_id": 5154435522,
+          "osm_type": "node",
+          "name": "Café Caracoli",
+          "latitude": 16.0829842,
+          "longitude": 108.222509,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 5217312122,
+          "osm_type": "node",
+          "name": "Cafe Caracoli",
+          "latitude": 16.0830572,
+          "longitude": 108.2224703,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "chi hoa",
+        "distance_m": 2.16,
+        "poi_1": {
+          "osm_id": 5216186221,
+          "osm_type": "node",
+          "name": "Chị Hoa",
+          "latitude": 16.0759086,
+          "longitude": 108.2108251,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 5249863422,
+          "osm_type": "node",
+          "name": "Chị Hoa",
+          "latitude": 16.0759094,
+          "longitude": 108.2108049,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "cafe a pho",
+        "distance_m": 3.88,
+        "poi_1": {
+          "osm_id": 5485709524,
+          "osm_type": "node",
+          "name": "Cafe Đà Phố",
+          "latitude": 16.0201659,
+          "longitude": 108.2114815,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 5495284627,
+          "osm_type": "node",
+          "name": "Cafe Đà Phố",
+          "latitude": 16.0201986,
+          "longitude": 108.2114943,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "buddha",
+        "distance_m": 5.46,
+        "poi_1": {
+          "osm_id": 11171035936,
+          "osm_type": "node",
+          "name": "Buddha",
+          "latitude": 16.0043207,
+          "longitude": 108.2622067,
+          "category": "sightseeing",
+          "category_name": "Tham quan",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 13525483886,
+          "osm_type": "node",
+          "name": "Buddha",
+          "latitude": 16.0043147,
+          "longitude": 108.2622574,
+          "category": "sightseeing",
+          "category_name": "Tham quan",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "buddha",
+        "distance_m": 8.85,
+        "poi_1": {
+          "osm_id": 11171038441,
+          "osm_type": "node",
+          "name": "Buddha",
+          "latitude": 16.004402,
+          "longitude": 108.2638971,
+          "category": "sightseeing",
+          "category_name": "Tham quan",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 12424938201,
+          "osm_type": "node",
+          "name": "Buddha",
+          "latitude": 16.0044679,
+          "longitude": 108.2639436,
+          "category": "sightseeing",
+          "category_name": "Tham quan",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "com ba thoi",
+        "distance_m": 4.97,
+        "poi_1": {
+          "osm_id": 6594176685,
+          "osm_type": "node",
+          "name": "Cơm Bà Thôi",
+          "latitude": 16.0613578,
+          "longitude": 108.2227325,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 6594185186,
+          "osm_type": "node",
+          "name": "Cơm bà thôi",
+          "latitude": 16.0613662,
+          "longitude": 108.2227782,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "gioang",
+        "distance_m": 32.85,
+        "poi_1": {
+          "osm_id": 6797860085,
+          "osm_type": "node",
+          "name": "GIOANG",
+          "latitude": 16.0754888,
+          "longitude": 108.2103505,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 6801113785,
+          "osm_type": "node",
+          "name": "GIOANG",
+          "latitude": 16.0756899,
+          "longitude": 108.2101253,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "hung n",
+        "distance_m": 2.68,
+        "poi_1": {
+          "osm_id": 6801113685,
+          "osm_type": "node",
+          "name": "HÙNGđn",
+          "latitude": 16.0704904,
+          "longitude": 108.2133284,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 7296009586,
+          "osm_type": "node",
+          "name": "HÙNGđn",
+          "latitude": 16.0705085,
+          "longitude": 108.2133449,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "hung n",
+        "distance_m": 5.14,
+        "poi_1": {
+          "osm_id": 6801113685,
+          "osm_type": "node",
+          "name": "HÙNGđn",
+          "latitude": 16.0704904,
+          "longitude": 108.2133284,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 7300993486,
+          "osm_type": "node",
+          "name": "HÙNGđn",
+          "latitude": 16.0704863,
+          "longitude": 108.2133763,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "hung n",
+        "distance_m": 4.17,
+        "poi_1": {
+          "osm_id": 7296009586,
+          "osm_type": "node",
+          "name": "HÙNGđn",
+          "latitude": 16.0705085,
+          "longitude": 108.2133449,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 7300993486,
+          "osm_type": "node",
+          "name": "HÙNGđn",
+          "latitude": 16.0704863,
+          "longitude": 108.2133763,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "hai cu",
+        "distance_m": 9.99,
+        "poi_1": {
+          "osm_id": 7095281753,
+          "osm_type": "node",
+          "name": "Hai Cử",
+          "latitude": 16.0657491,
+          "longitude": 108.2225793,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 7095281758,
+          "osm_type": "node",
+          "name": "Hai Cử",
+          "latitude": 16.0656594,
+          "longitude": 108.2225744,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "mikazuki a nang hotel",
+        "distance_m": 7.97,
+        "poi_1": {
+          "osm_id": 10054034978,
+          "osm_type": "node",
+          "name": "Mikazuki Đà Nẵng Hotel",
+          "latitude": 16.0935456,
+          "longitude": 108.1444194,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 1098017439,
+          "osm_type": "way",
+          "name": "Mikazuki Đà Nẵng Hotel",
+          "latitude": 16.0935848,
+          "longitude": 108.1443569,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "thia go",
+        "distance_m": 27.93,
+        "poi_1": {
+          "osm_id": 10126113417,
+          "osm_type": "node",
+          "name": "Thia Go",
+          "latitude": 16.0529621,
+          "longitude": 108.2415067,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 10875254005,
+          "osm_type": "node",
+          "name": "Thia Go",
+          "latitude": 16.0532123,
+          "longitude": 108.24153,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "carol lounge",
+        "distance_m": 9.54,
+        "poi_1": {
+          "osm_id": 10537046604,
+          "osm_type": "node",
+          "name": "Carol Lounge",
+          "latitude": 16.0823478,
+          "longitude": 108.2203289,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 10537180403,
+          "osm_type": "node",
+          "name": "Carol Lounge",
+          "latitude": 16.0823991,
+          "longitude": 108.2204005,
+          "category": "entertainment",
+          "category_name": "Giải trí",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "mcdonald s",
+        "distance_m": 21.06,
+        "poi_1": {
+          "osm_id": 12167609716,
+          "osm_type": "node",
+          "name": "McDonald's",
+          "latitude": 16.0607876,
+          "longitude": 108.222288,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 12624765801,
+          "osm_type": "node",
+          "name": "McDonald's",
+          "latitude": 16.0608831,
+          "longitude": 108.2221178,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "ge cafe",
+        "distance_m": 3.96,
+        "poi_1": {
+          "osm_id": 12345255101,
+          "osm_type": "node",
+          "name": "Gé Cafe",
+          "latitude": 16.0639538,
+          "longitude": 108.2226683,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 12372805701,
+          "osm_type": "node",
+          "name": "Gé Cafe",
+          "latitude": 16.0639195,
+          "longitude": 108.2226583,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "golden lotus",
+        "distance_m": 23.96,
+        "poi_1": {
+          "osm_id": 12382574001,
+          "osm_type": "node",
+          "name": "Golden lotus",
+          "latitude": 16.0509684,
+          "longitude": 108.2471195,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 12839924378,
+          "osm_type": "node",
+          "name": "Golden Lotus",
+          "latitude": 16.0508817,
+          "longitude": 108.2469142,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "ganh",
+        "distance_m": 0.01,
+        "poi_1": {
+          "osm_id": 12846671301,
+          "osm_type": "node",
+          "name": "Ganh",
+          "latitude": 16.0477728,
+          "longitude": 108.2413782,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 12846757302,
+          "osm_type": "node",
+          "name": "Ganh",
+          "latitude": 16.0477727,
+          "longitude": 108.2413782,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "sandy bay",
+        "distance_m": 0.02,
+        "poi_1": {
+          "osm_id": 12846671302,
+          "osm_type": "node",
+          "name": "Sandy Bay",
+          "latitude": 16.0489953,
+          "longitude": 108.2408212,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 12846758101,
+          "osm_type": "node",
+          "name": "Sandy Bay",
+          "latitude": 16.0489952,
+          "longitude": 108.2408211,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "korean traditional",
+        "distance_m": 0.01,
+        "poi_1": {
+          "osm_id": 12846671305,
+          "osm_type": "node",
+          "name": "Korean traditional",
+          "latitude": 16.0496196,
+          "longitude": 108.2456204,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 12846757402,
+          "osm_type": "node",
+          "name": "Korean traditional",
+          "latitude": 16.0496196,
+          "longitude": 108.2456203,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "hometown bamboo prime villa",
+        "distance_m": 2.8,
+        "poi_1": {
+          "osm_id": 13202329414,
+          "osm_type": "node",
+          "name": "Hometown Bamboo Prime Villa",
+          "latitude": 16.1054366,
+          "longitude": 108.2601685,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 1436381412,
+          "osm_type": "way",
+          "name": "Hometown Bamboo Prime Villa",
+          "latitude": 16.1054118,
+          "longitude": 108.2601733,
+          "category": "hotel",
+          "category_name": "Khách sạn",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "gen sushi",
+        "distance_m": 0.0,
+        "poi_1": {
+          "osm_id": 13990311204,
+          "osm_type": "node",
+          "name": "GEN SUSHI",
+          "latitude": 16.0733185,
+          "longitude": 108.2399272,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 13990316802,
+          "osm_type": "node",
+          "name": "GEN SUSHI",
+          "latitude": 16.0733185,
+          "longitude": 108.2399272,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "lotte duty free",
+        "distance_m": 16.58,
+        "poi_1": {
+          "osm_id": 14045111563,
+          "osm_type": "node",
+          "name": "Lotte Duty Free",
+          "latitude": 16.0561299,
+          "longitude": 108.2020188,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 14045136237,
+          "osm_type": "node",
+          "name": "Lotte Duty Free",
+          "latitude": 16.0560661,
+          "longitude": 108.202159,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "lotte duty free",
+        "distance_m": 23.45,
+        "poi_1": {
+          "osm_id": 14045111563,
+          "osm_type": "node",
+          "name": "Lotte Duty Free",
+          "latitude": 16.0561299,
+          "longitude": 108.2020188,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 14045145879,
+          "osm_type": "node",
+          "name": "Lotte Duty Free",
+          "latitude": 16.0563392,
+          "longitude": 108.201992,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "lotte duty free",
+        "distance_m": 35.22,
+        "poi_1": {
+          "osm_id": 14045136237,
+          "osm_type": "node",
+          "name": "Lotte Duty Free",
+          "latitude": 16.0560661,
+          "longitude": 108.202159,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 14045145879,
+          "osm_type": "node",
+          "name": "Lotte Duty Free",
+          "latitude": 16.0563392,
+          "longitude": 108.201992,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "ong tien bakery tran cao van",
+        "distance_m": 38.55,
+        "poi_1": {
+          "osm_id": 14335385412,
+          "osm_type": "node",
+          "name": "Đồng Tiến Bakery - Trần Cao Vân",
+          "latitude": 16.071396,
+          "longitude": 108.195611,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 14335385465,
+          "osm_type": "node",
+          "name": "Đồng Tiến Bakery - Trần Cao Vân",
+          "latitude": 16.071646,
+          "longitude": 108.195861,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "ong tien bakery quang trung",
+        "distance_m": 16.99,
+        "poi_1": {
+          "osm_id": 14335385425,
+          "osm_type": "node",
+          "name": "Đồng Tiến Bakery - Quang Trung",
+          "latitude": 16.073449,
+          "longitude": 108.213397,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 14335385480,
+          "osm_type": "node",
+          "name": "Đồng Tiến Bakery - Quang Trung",
+          "latitude": 16.073497,
+          "longitude": 108.213246,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "ong tien bakery van tien dung",
+        "distance_m": 38.56,
+        "poi_1": {
+          "osm_id": 14335385437,
+          "osm_type": "node",
+          "name": "Đồng Tiến Bakery - Văn Tiến Dũng",
+          "latitude": 16.001251,
+          "longitude": 108.213082,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 14335385447,
+          "osm_type": "node",
+          "name": "Đồng Tiến Bakery Văn Tiến Dũng",
+          "latitude": 16.001501,
+          "longitude": 108.213332,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "ong tien bakery ha huy tap",
+        "distance_m": 38.55,
+        "poi_1": {
+          "osm_id": 14335385449,
+          "osm_type": "node",
+          "name": "Đồng Tiến Bakery - Hà Huy Tập",
+          "latitude": 16.061839,
+          "longitude": 108.191847,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 14335385479,
+          "osm_type": "node",
+          "name": "Đồng Tiến Bakery - Hà Huy Tập",
+          "latitude": 16.062089,
+          "longitude": 108.192097,
+          "category": "shopping",
+          "category_name": "Mua sắm",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "pho bac hanh",
+        "distance_m": 11.41,
+        "poi_1": {
+          "osm_id": 14344105958,
+          "osm_type": "node",
+          "name": "Phở Bắc Hạnh",
+          "latitude": 16.0749751,
+          "longitude": 108.2308719,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 14346479401,
+          "osm_type": "node",
+          "name": "Phở Bắc Hạnh",
+          "latitude": 16.0749173,
+          "longitude": 108.2309601,
+          "category": "food_drink",
+          "category_name": "Ăn uống",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "chua linh ung",
+        "distance_m": 27.8,
+        "poi_1": {
+          "osm_id": 746227054,
+          "osm_type": "way",
+          "name": "Chùa Linh Ứng",
+          "latitude": 15.9973553,
+          "longitude": 107.9939311,
+          "category": "sightseeing",
+          "category_name": "Tham quan",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 20707914,
+          "osm_type": "relation",
+          "name": "Chùa Linh Ứng",
+          "latitude": 15.9972033,
+          "longitude": 107.9941376,
+          "category": "sightseeing",
+          "category_name": "Tham quan",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      },
+      {
+        "normalized_name": "en linh chua linh tu",
+        "distance_m": 21.0,
+        "poi_1": {
+          "osm_id": 1109970004,
+          "osm_type": "way",
+          "name": "Đền Lĩnh Chúa Linh Từ",
+          "latitude": 15.9975648,
+          "longitude": 107.9856835,
+          "category": "sightseeing",
+          "category_name": "Tham quan",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        },
+        "poi_2": {
+          "osm_id": 20704135,
+          "osm_type": "relation",
+          "name": "Đền Lĩnh Chúa Linh Từ",
+          "latitude": 15.9977275,
+          "longitude": 107.9857833,
+          "category": "sightseeing",
+          "category_name": "Tham quan",
+          "secondary_categories": [],
+          "secondary_category_names": []
+        }
+      }
+    ]
+  },
+  "coordinate_validity": {
+    "invalid_coordinates": [],
+    "inside_boundary": 3342,
+    "boundary_edge": 3,
+    "outside_boundary": []
+  },
+  "classification_consistency": {
+    "invalid_primary": [],
+    "invalid_secondary": [],
+    "missing_primary": [],
+    "unclassified_with_category": []
+  }
+}
